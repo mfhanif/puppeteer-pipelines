@@ -13,6 +13,7 @@ RUN apt-get update \
     fonts-thai-tlwg \
     fonts-wqy-zenhei \
     google-chrome-unstable \
+    google-chrome-stable \
     ttf-freefont \
  && rm -rf /var/lib/apt/lists/* \
  && apt-get purge --auto-remove -y curl \
